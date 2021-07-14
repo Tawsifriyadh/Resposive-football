@@ -47,6 +47,9 @@ h1{
 
 }
 /* player box  */
+.players-container{
+    margin-bottom: 160px;
+}
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -69,4 +72,53 @@ h1{
 }
 .player-info h3{
     font-weight: bold;
+}
+/* prizes styles */
+.prize-container{
+    margin-bottom: 160px;
+    border: 10px solid gainsboro;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.prizes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+}
+.prize{
+    width: 300px;
+    height: 426px;
+    padding: 15px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+.prize h3{
+    font-weight: bolder;
+}
+.prize img{
+    height: 256px;
+    width: 300px;
+}
+/* footer styles */
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#football-logo{
+    width: 483.87px;
+    height: 110px;
+}
+.icon img{
+    height: 32px;
+    width: 32px;
+}
+.container p{
+    font-size: 18px;
 }
