@@ -1,0 +1,72 @@
+/* all common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+/* banner style  */
+.copa-america{
+    display: flex;
+    /* margin-top: 0px; */
+    background-color: #2D25A0;
+}
+.copa-america:hover .banner-photo img{
+    transform: rotate(45deg);
+}
+.conmabol{
+    width: 50%;
+    margin-top: 200px;
+    margin-left: 160px;
+    margin-bottom: 170px;
+}
+h1{
+    font-size: 64px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.conmabol a{
+    color: #FFFFFF;
+}
+#button{
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    text-decoration: none;
+}
+.banner-photo{
+    margin-top: 250px;
+    margin-right: 140px;
+}
+.photo{
+    transition: transform 1s ease-in;
+}
+
+.banner-photo img{
+    width: 556px;
+    height: 438px;
+
+}
+/* player box  */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    justify-items: center;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-top: 70px;
+}
+.player{
+    width: 300px;
+    height: 426px;
+    padding: 15px;
+    box-shadow: 10px 10px 40px gray;
+}
+.player-photo img{
+    height: 256px;
+    width: 300px;
+}
+.player-info h3{
+    font-weight: bold;
+}
