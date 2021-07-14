@@ -1,3 +1,22 @@
+/* media query */
+@media only screen and (max-width:688px) {
+    .copa-america{
+        flex-direction: column;
+    }
+    .players{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .prizes{
+        grid-template-columns: repeat(1,1fr);
+    }
+    footer{
+        flex-direction: column;
+    }
+    #football-logo{
+        width: 250px;
+    }
+    
+}
 /* all common styles */
 body{
     font-family: 'Poppins', sans-serif;
