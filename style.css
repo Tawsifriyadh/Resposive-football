@@ -127,10 +127,17 @@ h1{
 @media only screen and (max-width:688px) {
     .copa-america{
         flex-direction: column;
+
     }
+    .conmabol{
+        margin-left: 60px;
+    }
+    .banner-photo img{
+        width: 400px;
+        height: 438px;}
     .players{
         grid-template-columns: repeat(1,1fr);
-        margin-left: 100px;
+        margin-left: 80px;
     }
     .prizes{
         grid-template-columns: repeat(1,1fr);
